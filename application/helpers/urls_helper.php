@@ -10,14 +10,9 @@ function base_url () {
 	return $CI->config->item('base_url');
 }
 
-function front_url () {
-        $CI =& get_instance();
-	return $CI->config->item('front_url');
-}
 
 function isMenuOn($lien) {
 	$CI =& get_instance();
-	
 	if (strlen($lien) == 0) {
 		return $CI->uri->uri_string == $lien;
 	} else {

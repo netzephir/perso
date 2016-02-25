@@ -1,13 +1,14 @@
-body,html{
-    height: 100%;
+.main-content-bg{
+    background-color: #fff;
 }
-
-/* remove outer padding */
-.main .row{
-    padding: 0px;
-    margin: 0px;
+.main-header{
+    height:76px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
-.menu-header{
-    
+.badge-clear{
+    background-color: transparent;
+}
+.text-color-jaune{
+    color: #fcd116;
 }

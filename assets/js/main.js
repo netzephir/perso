@@ -5,8 +5,7 @@ function htmlbodyHeightUpdate() {
     if (height2 > height3) {
         $('html').height(Math.max(height1, height3, height2) + 10);
         $('body').height(Math.max(height1, height3, height2) + 10);
-    }
-    else
+    } else
     {
         $('html').height(Math.max(height1, height3, height2));
         $('body').height(Math.max(height1, height3, height2));
@@ -14,6 +13,7 @@ function htmlbodyHeightUpdate() {
 
 }
 $(document).ready(function () {
+    $.material.init();
     htmlbodyHeightUpdate();
     $(window).resize(function () {
         htmlbodyHeightUpdate();

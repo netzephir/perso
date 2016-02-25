@@ -14,10 +14,10 @@ class Template {
     {
         $this->CI = get_instance();
         
-        // Le titre est composé du nom de la méthode et du nom du contrôleur
+        // Le titre est compose du nom du contrôleur
         // La fonction ucfirst permet d'ajouter une majuscule
         
-        $this->var['titre'] = ucfirst($this->CI->router->fetch_method()) . ' - ' . ucfirst($this->CI->router->fetch_class());
+        $this->var['titre'] = ucfirst($this->CI->router->fetch_class());
         // Nous initialisons la variable $charset avec la même valeur que
         // la clé de configuration initialisée dans le fichier config.php
         $this->var['charset'] = $this->CI->config->item('charset');
@@ -114,7 +114,7 @@ class Template {
  
         // On récupère le contenu de la page
         $content = $this->CI->ci_smarty->view($name, true);
-
+        
         //Si la requete n'est pas en ajax on charge la view dans
         if(!IS_AJAX){
             // On clean les assign pour le template
@@ -133,7 +133,7 @@ class Template {
             $output = $content;
         }
         // On affiche ou on retourne le résultat en utilisant le moteur de template de CodeIgniter
-        return $this->CI->load->view('viewer', array('output' => $output), !IS_AJAX);
+        return $this->CI->load->view('viewer', array('output' => $output));
     }
 }
 /* End of file template.php */
