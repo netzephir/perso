@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-25 15:28:29
+<?php /* Smarty version Smarty-3.1.19, created on 2016-02-25 15:43:01
          compiled from "C:\wamp\www\perso\application\views\partials\sideBar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2351456cf0f8d88c8d3-15092834%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:693556cf12f52ea942-53026479%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2351456cf0f8d88c8d3-15092834',
+  'nocache_hash' => '693556cf12f52ea942-53026479',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56cf0f8d928d06_91053816',
+  'unifunc' => 'content_56cf12f5367965_53356873',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56cf0f8d928d06_91053816')) {function content_56cf0f8d928d06_91053816($_smarty_tpl) {?><aside class="sidebar-left">
+<?php if ($_valid && !is_callable('content_56cf12f5367965_53356873')) {function content_56cf12f5367965_53356873($_smarty_tpl) {?><aside class="sidebar-left">
         <a class="company-logo" href="<?php echo base_url();?>
 ">Logo</a>
 

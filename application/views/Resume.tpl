@@ -1,3 +1,10 @@
+<div class="col-xs-12">
+    <div class="panel panel-primary">
+        <div class="panel-body">
+            
+        </div>
+    </div>
+</div>
 <div class="col-xs-12 col-lg-8">
     <div class="panel panel-primary">
         <div class="panel-heading">
